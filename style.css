@@ -54,6 +54,23 @@ body {
     animation: logoGlow 3s ease-in-out infinite alternate;
 }
 
+/* Tagline Styles - Minimal & Corporate */
+.tagline {
+    text-align: center;
+    margin: -1rem 0;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out 0.5s forwards;
+}
+
+.tagline p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: #cccccc;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
 /* CTA Button - Yellow Neon Style */
 .cta-button {
     display: inline-block;
